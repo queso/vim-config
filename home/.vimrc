@@ -21,6 +21,7 @@ Bundle 'altercation/vim-colors-solarized'
 Bundle 'eraserhd/vim-ios'
 Bundle 'godlygeek/tabular'
 Bundle 'kien/ctrlp.vim'
+Bundle 'tomtom/tcomment_vim'
 
 filetype plugin indent on
 syntax on
@@ -33,7 +34,7 @@ colorscheme grb256
 
 set nu
 
-let mapleader=","
+let mapleader="\"
 set timeoutlen=250
 set history=256
 
