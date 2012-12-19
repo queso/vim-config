@@ -34,7 +34,7 @@ colorscheme grb256
 
 set nu
 
-let mapleader="\"
+let mapleader="\\"
 set timeoutlen=250
 set history=256
 
