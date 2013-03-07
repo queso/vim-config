@@ -22,6 +22,8 @@ Bundle 'eraserhd/vim-ios'
 Bundle 'godlygeek/tabular'
 Bundle 'kien/ctrlp.vim'
 Bundle 'tomtom/tcomment_vim'
+Bundle 'janx/vim-rubytest'
+
 
 filetype plugin indent on
 syntax on
@@ -75,6 +77,10 @@ set autoindent
 set shiftwidth=2
 set tabstop=2
 set autoindent smartindent
+
+" Ruby test mappings
+map <unique> <Leader>r <Plug>RubyTestRun
+map <unique> <Leader>T <Plug>RubyFileRun
 
 " Backspace
 set backspace=indent,eol,start
