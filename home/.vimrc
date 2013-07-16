@@ -24,6 +24,7 @@ Bundle 'kien/ctrlp.vim'
 Bundle 'tomtom/tcomment_vim'
 Bundle 'janx/vim-rubytest'
 Bundle 'lunaru/vim-less'
+Bundle 'noahfrederick/vim-noctu'
 
 
 filetype plugin indent on
@@ -33,7 +34,7 @@ set shortmess=I
 
 set t_Co=256
 set background=dark
-colorscheme grb256
+colorscheme noctu
 
 set nu
 
