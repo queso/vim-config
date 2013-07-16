@@ -23,6 +23,7 @@ Bundle 'godlygeek/tabular'
 Bundle 'kien/ctrlp.vim'
 Bundle 'tomtom/tcomment_vim'
 Bundle 'janx/vim-rubytest'
+Bundle 'lunaru/vim-less'
 
 
 filetype plugin indent on
