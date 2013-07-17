@@ -25,6 +25,7 @@ Bundle 'tomtom/tcomment_vim'
 Bundle 'janx/vim-rubytest'
 Bundle 'lunaru/vim-less'
 Bundle 'noahfrederick/vim-noctu'
+Bundle 'chriskempson/base16-vim'
 
 
 filetype plugin indent on
