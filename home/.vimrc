@@ -85,6 +85,12 @@ set autoindent smartindent
 map <unique> <Leader>r <Plug>RubyTestRun
 map <unique> <Leader>T <Plug>RubyFileRun
 
+" Remove the crutch of arrow keys
+map <up> <nop>
+map <down> <nop>
+map <left> <nop>
+map <right> <nop>
+
 " Backspace
 set backspace=indent,eol,start
 
