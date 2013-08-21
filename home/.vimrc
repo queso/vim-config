@@ -35,7 +35,7 @@ set shortmess=I
 
 set t_Co=256
 set background=dark
-colorscheme noctu
+colorscheme railscasts
 
 set nu
 
