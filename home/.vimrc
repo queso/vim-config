@@ -139,8 +139,7 @@ highlight LineNr ctermfg=65
 set cursorline!
 
 " whitespace
-set nolist listchars=tab:·\ ,eol:¶,trail:·,extends:»,precedes:«
-nmap <silent> <leader>s :set nolist!<CR>
+match ErrorMsg '\s\+$'
 nnoremap <silent> <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>:retab<CR>
 
 " command-t settings
