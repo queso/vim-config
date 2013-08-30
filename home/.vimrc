@@ -140,7 +140,7 @@ set cursorline!
 
 " whitespace
 match ErrorMsg '\s\+$'
-nnoremap <silent> <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>:retab<CR>
+nnoremap <silent> <leader>rw :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>:retab<CR>
 
 " command-t settings
 let g:CommandTMaxHeight=20
