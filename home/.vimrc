@@ -26,6 +26,11 @@ Bundle 'janx/vim-rubytest'
 Bundle 'lunaru/vim-less'
 Bundle 'noahfrederick/vim-noctu'
 Bundle 'chriskempson/base16-vim'
+Bundle 'goatslacker/mango.vim'
+Bundle 'tpope/vim-vividchalk'
+Bundle 'digitaltoad/vim-jade'
+Bundle 'scrooloose/syntastic'
+Bundle 'wakatime/vim-wakatime'
 
 
 filetype plugin indent on
@@ -172,6 +177,7 @@ set mouse=a
 
 let g:netrw_liststyle=3
 
+let g:syntastic_javascript_checkers = ['eslint']
 
 " can haz spell
 iab inpsection inspection
