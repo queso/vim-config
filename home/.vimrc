@@ -17,6 +17,7 @@ Bundle 'ack.vim'
 Bundle 'ragtag.vim'
 Bundle 'fugitive.vim'
 Bundle 'https://github.com/jgdavey/vim-railscasts.git'
+Bundle 'https://github.com/Slava/vim-spacebars.git'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'eraserhd/vim-ios'
 Bundle 'godlygeek/tabular'
@@ -31,6 +32,7 @@ Bundle 'tpope/vim-vividchalk'
 Bundle 'digitaltoad/vim-jade'
 Bundle 'scrooloose/syntastic'
 Bundle 'wakatime/vim-wakatime'
+Bundle 'pangloss/vim-javascript'
 
 
 filetype plugin indent on
