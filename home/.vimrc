@@ -180,6 +180,8 @@ set mouse=a
 let g:netrw_liststyle=3
 
 let g:syntastic_javascript_checkers = ['eslint']
+let g:syntastic_javascript_eslint_exec = 'eslint_d'
+
 
 " can haz spell
 iab inpsection inspection
