@@ -23,7 +23,6 @@ Plugin 'eraserhd/vim-ios'
 Plugin 'godlygeek/tabular'
 Plugin 'kien/ctrlp.vim'
 Plugin 'tomtom/tcomment_vim'
-Plugin 'janx/vim-rubytest'
 Plugin 'lunaru/vim-less'
 Plugin 'noahfrederick/vim-noctu'
 Plugin 'chriskempson/base16-vim'
@@ -34,6 +33,9 @@ Plugin 'scrooloose/syntastic'
 Plugin 'wakatime/vim-wakatime'
 Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
+Plugin 'jparise/vim-graphql'
+Plugin 'udalov/kotlin-vim'
+Plugin 'posva/vim-vue'
 call vundle#end()
 
 filetype plugin indent on
@@ -88,10 +90,6 @@ set autoindent
 set shiftwidth=2
 set tabstop=2
 set autoindent smartindent
-
-" Ruby test mappings
-map <unique> <Leader>r <Plug>RubyTestRun
-map <unique> <Leader>T <Plug>RubyFileRun
 
 " Remove the crutch of arrow keys
 map <up> <nop>
@@ -177,6 +175,11 @@ if filereadable(expand("~/.vimrc.local"))
 endif
 
 set mouse=a
+
+highlight ColorColumn ctermbg=magenta
+call matchadd('ColorColumn', '\%81v', 100)
+
+autocmd FileType javascript set formatprg=prettier\ --stdin
 
 let g:netrw_liststyle=3
 
