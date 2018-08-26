@@ -10,7 +10,6 @@ Plugin 'gmarik/vundle'
 Plugin 'tpope/vim-rails'
 Plugin 'surround.vim'
 Plugin 'endwise.vim'
-Plugin 'vim-coffee-script'
 Plugin 'wincent/Command-T'
 Plugin 'jQuery'
 Plugin 'matchit.zip'
@@ -18,7 +17,6 @@ Plugin 'ack.vim'
 Plugin 'ragtag.vim'
 Plugin 'fugitive.vim'
 Plugin 'https://github.com/jgdavey/vim-railscasts.git'
-Plugin 'altercation/vim-colors-solarized'
 Plugin 'eraserhd/vim-ios'
 Plugin 'godlygeek/tabular'
 Plugin 'kien/ctrlp.vim'
@@ -36,6 +34,14 @@ Plugin 'mxw/vim-jsx'
 Plugin 'jparise/vim-graphql'
 Plugin 'udalov/kotlin-vim'
 Plugin 'posva/vim-vue'
+Plugin 'nanotech/jellybeans.vim'
+Plugin 'tomasiser/vim-code-dark'
+Plugin 'sonph/onehalf'
+Plugin 'flazz/vim-colorschemes'
+Plugin 'chr4/jellygrass.vim'
+Plugin 'yuttie/hydrangea-vim'
+Plugin 'lu-ren/SerialExperimentsLain'
+Plugin 'andbar-ru/vim-unicorn'
 call vundle#end()
 
 filetype plugin indent on
@@ -44,8 +50,10 @@ syntax on
 set shortmess=I
 
 set t_Co=256
+set term=xterm-256color-italic
 set background=dark
-colorscheme railscasts
+let g:seoul256_background = 233
+colorscheme seoul256
 
 set nu
 
@@ -142,6 +150,9 @@ highlight StatusLine term=reverse ctermfg=65 ctermbg=255 guifg=#FFFFFF guibg=#00
 highlight StatusLineNC cterm=NONE ctermfg=250 ctermbg=239
 highlight TabLineFill ctermfg=239
 highlight LineNr ctermfg=65
+highlight Comment cterm=italic
+highlight Constant cterm=italic
+highlight Special cterm=italic
 set cursorline!
 
 " whitespace
