@@ -2,11 +2,10 @@ set nocompatible               " be iMproved
 filetype off                   " required!
 
 " Vundle
-set runtimepath+=~/.vim/bundle/Vundle.vim/
+set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-ruby/vim-ruby'
-Plugin 'gmarik/vundle'
 Plugin 'tpope/vim-rails'
 Plugin 'surround.vim'
 Plugin 'endwise.vim'
@@ -41,7 +40,7 @@ Plugin 'flazz/vim-colorschemes'
 Plugin 'chr4/jellygrass.vim'
 Plugin 'yuttie/hydrangea-vim'
 Plugin 'lu-ren/SerialExperimentsLain'
-Plugin 'andbar-ru/vim-unicorn'
+Plugin 'styled-components/vim-styled-components'
 call vundle#end()
 
 filetype plugin indent on
