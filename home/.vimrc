@@ -6,17 +6,14 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-ruby/vim-ruby'
-Plugin 'tpope/vim-rails'
 Plugin 'surround.vim'
 Plugin 'endwise.vim'
 Plugin 'wincent/Command-T'
-Plugin 'jQuery'
 Plugin 'matchit.zip'
 Plugin 'ack.vim'
 Plugin 'ragtag.vim'
 Plugin 'fugitive.vim'
 Plugin 'https://github.com/jgdavey/vim-railscasts.git'
-Plugin 'eraserhd/vim-ios'
 Plugin 'godlygeek/tabular'
 Plugin 'kien/ctrlp.vim'
 Plugin 'tomtom/tcomment_vim'
@@ -41,6 +38,7 @@ Plugin 'chr4/jellygrass.vim'
 Plugin 'yuttie/hydrangea-vim'
 Plugin 'lu-ren/SerialExperimentsLain'
 Plugin 'styled-components/vim-styled-components'
+Plugin 'leafgarland/typescript-vim'
 call vundle#end()
 
 filetype plugin indent on
